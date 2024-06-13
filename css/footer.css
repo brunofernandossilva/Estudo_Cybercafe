@@ -1,0 +1,38 @@
+
+.div-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    position: relative;
+    filter: drop-shadow(0px 0px 10px #000);
+    overflow: hidden;
+    transition: 0.7s ease-in-out;
+    transform: translateX(0);
+    max-width: 1600px;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 14%;
+}
+
+.icons1 {
+    margin-top: 7%;
+    margin-left: 11%;
+}
+
+.icons2 {
+    margin-top: 7%;
+    margin-left: 23%;
+    max-width: 100%;
+}
+
+.footer {
+    text-align: center;
+    color: #f2f2f2;
+    margin: 5px;
+}
